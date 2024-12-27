@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\A\ModularMono.Modules.A.Api\ModularMono.Modules.A.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\B\ModularMono.Modules.B.Api\ModularMono.Modules.B.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\C\ModularMono.Modules.C.Api\ModularMono.Modules.C.Api.csproj" />
+  </ItemGroup>
+
+</Project>
