@@ -13,13 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B", "B", "{6C21B300-EA75-45
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C", "C", "{8A750C10-5A62-475E-B4ED-CAD65C074E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.A.Api", "src\Modules\A\ModularMono.Modules.A.Api\ModularMono.Modules.A.Api.csproj", "{07B90939-0B59-4542-9885-C199CBBCE905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMono.Modules.A.Api", "src\Modules\A\ModularMono.Modules.A.Api\ModularMono.Modules.A.Api.csproj", "{07B90939-0B59-4542-9885-C199CBBCE905}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.B.Api", "src\Modules\B\ModularMono.Modules.B.Api\ModularMono.Modules.B.Api.csproj", "{EF4AB604-4D77-4689-963A-D1AB20739E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMono.Modules.B.Api", "src\Modules\B\ModularMono.Modules.B.Api\ModularMono.Modules.B.Api.csproj", "{EF4AB604-4D77-4689-963A-D1AB20739E02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.C.Api", "src\Modules\C\ModularMono.Modules.C.Api\ModularMono.Modules.C.Api.csproj", "{5DF59742-89D0-4DB8-98A4-3A84BA82729A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMono.Modules.C.Api", "src\Modules\C\ModularMono.Modules.C.Api\ModularMono.Modules.C.Api.csproj", "{5DF59742-89D0-4DB8-98A4-3A84BA82729A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Bootstrapper", "src\Bootstrapper\ModularMono.Bootstrapper\ModularMono.Bootstrapper.csproj", "{74577715-3FFA-4F8B-AB91-CBAA098624FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModularMono.Bootstrapper", "src\Bootstrapper\ModularMono.Bootstrapper\ModularMono.Bootstrapper.csproj", "{74577715-3FFA-4F8B-AB91-CBAA098624FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.B.UnitTests", "src\Modules\B\ModularMono.Modules.B.UnitTests\ModularMono.Modules.B.UnitTests.csproj", "{CD4C0D26-1359-420F-9386-BBAB50963EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.C.UnitTests", "src\Modules\C\ModularMono.Modules.C.UnitTests\ModularMono.Modules.C.UnitTests.csproj", "{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMono.Modules.A.UnitTests", "src\Modules\A\ModularMono.Modules.A.UnitTests\ModularMono.Modules.A.UnitTests.csproj", "{DD390011-B330-43AA-AA2F-9CF9239095C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +49,18 @@ Global
 		{74577715-3FFA-4F8B-AB91-CBAA098624FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74577715-3FFA-4F8B-AB91-CBAA098624FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74577715-3FFA-4F8B-AB91-CBAA098624FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4C0D26-1359-420F-9386-BBAB50963EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4C0D26-1359-420F-9386-BBAB50963EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4C0D26-1359-420F-9386-BBAB50963EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4C0D26-1359-420F-9386-BBAB50963EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD390011-B330-43AA-AA2F-9CF9239095C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD390011-B330-43AA-AA2F-9CF9239095C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD390011-B330-43AA-AA2F-9CF9239095C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD390011-B330-43AA-AA2F-9CF9239095C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +73,9 @@ Global
 		{EF4AB604-4D77-4689-963A-D1AB20739E02} = {6C21B300-EA75-4587-8959-5F349AAA74E4}
 		{5DF59742-89D0-4DB8-98A4-3A84BA82729A} = {8A750C10-5A62-475E-B4ED-CAD65C074E2C}
 		{74577715-3FFA-4F8B-AB91-CBAA098624FD} = {24F0E134-8CD3-4F64-B637-625D30A4888A}
+		{CD4C0D26-1359-420F-9386-BBAB50963EF7} = {6C21B300-EA75-4587-8959-5F349AAA74E4}
+		{4FEEF6EE-1DC7-44C3-84E0-43EC80E256DB} = {8A750C10-5A62-475E-B4ED-CAD65C074E2C}
+		{DD390011-B330-43AA-AA2F-9CF9239095C6} = {D1CB5990-208E-43E2-B094-22A59C723E59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {341EF0A1-EA46-4848-A83B-1CA1A7951C2A}
