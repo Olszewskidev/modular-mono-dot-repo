@@ -15,6 +15,13 @@
     <ProjectReference Include="..\..\Modules\A\ModularMono.Modules.A.Api\ModularMono.Modules.A.Api.csproj" />
     <ProjectReference Include="..\..\Modules\B\ModularMono.Modules.B.Api\ModularMono.Modules.B.Api.csproj" />
     <ProjectReference Include="..\..\Modules\C\ModularMono.Modules.C.Api\ModularMono.Modules.C.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\D\ModularMono.Modules.D.Api\ModularMono.Modules.D.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\E\ModularMono.Modules.E.Api\ModularMono.Modules.E.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\F\ModularMono.Modules.F.Api\ModularMono.Modules.F.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\G\ModularMono.Modules.G.Api\ModularMono.Modules.G.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\H\ModularMono.Modules.H.Api\ModularMono.Modules.H.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\I\ModularMono.Modules.I.Api\ModularMono.Modules.I.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\J\ModularMono.Modules.J.Api\ModularMono.Modules.J.Api.csproj" />
   </ItemGroup>
 
 </Project>
