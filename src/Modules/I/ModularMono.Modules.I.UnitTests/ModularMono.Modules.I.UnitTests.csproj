@@ -5,6 +5,8 @@
     <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
+  <Import Project="..\..\..\..\UnitTests.Common.props" />
+
   <ItemGroup>
     <ProjectReference Include="..\ModularMono.Modules.I.Api\ModularMono.Modules.I.Api.csproj" />
   </ItemGroup>
