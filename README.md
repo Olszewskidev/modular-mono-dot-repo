@@ -16,7 +16,7 @@ The repository follows a modular monolith organization. Below is a high-level st
 		Modules.A.Api.csproj
 		Modules.A.UnitTests.csproj
 	/B
-    	Modules.B.Api.csproj
+    		Modules.B.Api.csproj
 		Modules.B.UnitTests.csproj
 	.
 	.
